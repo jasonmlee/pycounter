@@ -5,7 +5,7 @@ Calculate word counts in a text file!
 ## Installation
 
 ```bash
-$ pip install pycounter
+$ pip install pycounter_mds
 ```
 
 ## Usage
