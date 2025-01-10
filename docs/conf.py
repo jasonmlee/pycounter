@@ -35,6 +35,6 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 #
 html_theme = "sphinx_rtd_theme"
 
-nb_execution_mode = "auto"
+nb_execution_mode = "off"
 nb_execution_allow_errors = True
 #nb_kernel_rgx_aliases = {"conda-env-pycounts-py": "conda-env-pycounts-py"}
