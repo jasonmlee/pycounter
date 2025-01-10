@@ -1,4 +1,4 @@
-# pycounter
+# pycounter_mds
 
 Calculate word counts in a text file!
 
@@ -13,8 +13,8 @@ $ pip install pycounter
 `pycounts` can be used to count words in a text file and plot results as follows:
 
 ```python
-from pycounts.pycounts import count_words
-from pycounts.plotting import plot_words
+from pycounter_mds.pycounter_mds import count_words
+from pycounter_mds.plotting import plot_words
 import matplotlib.pyplot as plt
 
 file_path = "test.txt"  # path to your file
