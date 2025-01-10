@@ -1,0 +1,68 @@
+pycounter.pycounter
+===================
+
+.. py:module:: pycounter.pycounter
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   pycounter.pycounter.load_text
+   pycounter.pycounter.clean_text
+   pycounter.pycounter.count_words
+
+
+Module Contents
+---------------
+
+.. py:function:: load_text(input_file)
+
+   Load text from a text file and return as a string.
+
+   :param input_file: Path to text file.
+   :type input_file: str
+
+   :returns: Text file contents.
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> load_text("text.txt")
+
+
+.. py:function:: clean_text(text)
+
+   Lowercase and remove punctuation from a string.
+
+   :param text: Text to clean.
+   :type text: str
+
+   :returns: Cleaned text.
+   :rtype: str
+
+   .. rubric:: Examples
+
+   >>> clean_text("Early optimization is the root of all evil!")
+   'early optimization is the root of all evil'
+
+
+.. py:function:: count_words(input_file)
+
+   Count unique words in a string.
+
+   Words are made lowercase and punctuation is removed
+   before counting.
+
+   :param input_file: Path to text file.
+   :type input_file: str
+
+   :returns: dict-like object where keys are words and values are counts.
+   :rtype: collections.Counter
+
+   .. rubric:: Examples
+
+   >>> count_words("text.txt")
+
+

@@ -1,0 +1,29 @@
+pycounter
+=========
+
+.. py:module:: pycounter
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/pycounter/plotting/index
+   /autoapi/pycounter/pycounter/index
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   pycounter.__version__
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
