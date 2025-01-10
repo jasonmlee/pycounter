@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pycounter"
+name = "pycounter-mds"
 version = "0.1.0"
 description = "Calculate word counts in a text file!"
 authors = ["Jason Lee"]
